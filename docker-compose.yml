@@ -1,0 +1,25 @@
+services:
+  mariadb:
+    image: mariadb:11
+    container_name: mariadb
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MARIADB_ROOT_PASSWORD: aula123root
+      MARIADB_DATABASE: aula
+      MARIADB_USER: aula
+      MARIADB_PASSWORD: aula123
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./conf.d/etc/mysql/conf.d
+    networks:
+      - iot-net
+
+volumes:
+   mariadb_data:
+      external: true
+
+networks:
+   iot-net:
+      external: true
