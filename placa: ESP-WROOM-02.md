@@ -40,4 +40,4 @@ void loop() {
 
 
 ## 28/08
-Estava sem drive, o código estava certo. depois disso a luz piscava.
+Estava sem drive, o código estava certo. Depois disso a luz piscava.
