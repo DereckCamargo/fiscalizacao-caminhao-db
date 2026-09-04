@@ -6,3 +6,21 @@
 - Modelo: ESP32 nodeMCU
 
 ## Link: https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE
+
+- Código:
+
+int led = 2;
+
+
+void setup() {
+pinMode(led, OUTPUT);
+}
+
+
+void loop() {
+  digitalWrite(led, HIGH);
+  delay (1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+}
+
