@@ -4,3 +4,5 @@
 - Led: Tem, dois. Vermelho geralmente para mostrar que está ligado; o azul (GPIO 2), esse é para programar o pino 2 digital.
 - Placa: ESP-WROOM-02 
 - Modelo: ESP32 nodeMCU
+
+## Link: https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE
