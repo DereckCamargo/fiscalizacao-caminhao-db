@@ -13,14 +13,31 @@ int led = 2;
 
 
 void setup() {
+
+
 pinMode(led, OUTPUT);
+
+
 }
 
 
 void loop() {
+
+
   digitalWrite(led, HIGH);
+
+  
   delay (1000);
+
+  
   digitalWrite(led, LOW);
+
+  
   delay(1000);
+
+  
 }
 
+
+## 28/08
+Estava sem drive, o código estava certo. depois disso a luz piscava.
